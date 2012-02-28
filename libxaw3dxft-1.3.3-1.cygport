@@ -1,0 +1,13 @@
+DESCRIPTION="3-D Athena widgets library with Xft support"
+HOMEPAGE="http://sf-xpaint.sourceforge.net/"
+SRC_URI="mirror://sourceforge/sf-xpaint/${P}.tar.bz2"
+PATCH_URI="1.3.3-no-undefined.patch
+           1.3.3-vpath.patch"
+
+PKG_NAMES="libXaw3dxft7 libXaw3dxft-devel"
+libXaw3dxft7_CONTENTS="usr/bin/cygXaw3dxft-7.dll usr/share/doc/"
+libXaw3dxft_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--enable-multiplane-pixmaps --disable-static"
+
+KEEP_LA_FILES="none"
