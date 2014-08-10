@@ -1,6 +1,6 @@
 NAME="libXaw3dXft"
 VERSION=1.6.2b
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="3-D Athena Widgets library with Xft support"
 DESCRIPTION="Xaw3dxft is an extended version of Xaw3D with support for UTF-8
